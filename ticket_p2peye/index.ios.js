@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+//组件导入区
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-
+//核心代码区
 export default class ticket_p2peye extends Component {
   render() {
     return (
@@ -30,7 +30,7 @@ export default class ticket_p2peye extends Component {
     );
   }
 }
-
+//组件样式区
 const styles = StyleSheet.create({
   container: {
     flex: 1,
